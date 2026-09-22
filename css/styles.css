@@ -1,0 +1,304 @@
+:root {
+  --c-turquesa-activo: #00A3A6;
+  --c-rojo-artesanal:  #D33F31;
+  --c-negro-deportivo: #121212;
+  --c-blanco:          #FFFFFF;
+  --c-gris-fondo:      #F4F5F7;
+  --c-gris-texto:      #555555;
+  --c-turquesa-hover:  #008285;
+  --c-rojo-hover:      #B32F23;
+}
+/********* Estilos Selene**********/
+
+.has-hero-section {
+  background-image: url('https://images.pexels.com/photos/17649814/pexels-photo-17649814.jpeg?_gl=1*1yja1g6*_ga*NzE3NzAxNzY4LjE3ODg5NzEzNTc.*_ga_8JE65Q40S6*czE3OTAxMDQwNTkkbzIkZzEkdDE3OTAxMDQxNjQkajYwJGwwJGgw'); 
+  background-position: center;
+  min-height: 520px;
+}
+.has-hero-overlay {
+  background-color: rgba(0, 0, 0, 0.78);
+}
+.has-badge-pill {
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+}
+.has-title-condensed {
+  font-family: 'Oswald', 'Arial Narrow', sans-serif;
+  font-size: clamp(2.5rem, 6vw, 4.2rem);
+  line-height: 1.05;
+  letter-spacing: 1px;
+}
+.has-paragraph-lead {
+  max-width: 600px;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #d1d5db;
+}
+.section-turquesa {
+  background-color: #03a9ac; 
+  padding: 80px 20px;       
+  color: #ffffff;
+}
+.section-turquesa .title-font {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+.section-turquesa .turquesa-text {
+  font-family: 'Montserrat', 'Open Sans', system-ui, sans-serif;
+  font-size: 1.05rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.6;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.section-turquesa .turquesa-text.fw-semibold {
+  font-weight: 700;
+  margin-top: 20px;
+}
+/********* Fin de Estilos Selene**********/
+
+
+/* ESTILOS BLOQUE 4 - HANNIA*/
+#contacto {
+    background-color: #03a9ac;
+    padding: 80px 0;
+    color: white;
+}
+.btn-kanu {
+    background-color: #18a7a5;
+    color: white;
+}
+
+.btn-kanu:hover {
+    background-color: #17394a;
+    color: white;
+}
+
+#footer {
+    padding: 80px 0;
+}
+
+.footer:list-unstyled{
+    background-color: #17394a;
+    color: rgb(2, 2, 2);
+}
+
+/* Estilos del bloque 5 */
+.s5-historia, .s5-taller { 
+    font-family: 'Montserrat', 
+    sans-serif; scroll-margin-top: 80px; 
+}
+.s5-historia { 
+    background: var(--c-gris-fondo); 
+    color: var(--c-negro-deportivo); 
+}
+.s5-taller   { 
+    background: var(--c-negro-deportivo); 
+    color: var(--c-blanco); 
+}
+ 
+.s5-titulo { 
+    font-family: 'Bebas Neue', 
+    sans-serif; font-size: clamp(2.6rem, 6vw, 4.5rem); 
+    line-height: 1; 
+}
+.s5-gris   { color: var(--c-gris-texto); }
+.s5-sub    { 
+    font-size: 1rem; 
+    font-weight: 700; 
+    color: var(--c-turquesa-activo); 
+}
+.s5-dato   { 
+    display: block; 
+    font-family: 'Bebas Neue', 
+    sans-serif; font-size: 2.4rem; 
+    line-height: 1; 
+    color: var(--c-turquesa-activo); 
+}
+ 
+.s5-marco { 
+    padding: 12px; 
+    border: 3px dashed var(--c-rojo-artesanal); 
+    border-radius: 6px; 
+}
+.s5-video { 
+    background: var(--c-turquesa-activo); 
+    color: var(--c-blanco); 
+}
+.s5-play  { 
+    width: 72px; 
+    height: 72px; 
+    border-radius: 50%; 
+    background: var(--c-blanco); 
+    position: relative; 
+}
+.s5-play::after { 
+    content: ""; 
+    position: absolute; 
+    left: 29px; 
+    top: 22px;
+    border-left: 22px solid var(--c-turquesa-activo); 
+    border-top: 14px solid transparent; 
+    border-bottom: 14px solid transparent; 
+}
+ 
+.s5-mapa { border: 3px solid var(--c-turquesa-activo); border-radius: 6px; overflow: hidden; }
+ 
+.s5-link { color: var(--c-blanco); text-decoration: none; width: fit-content; padding: 2px 0; border-bottom: 1px solid transparent; }
+.s5-link:hover { color: var(--c-blanco); border-bottom-color: var(--c-turquesa-activo); }
+ 
+.s5-btn { --bs-btn-color: #fff; --bs-btn-bg: var(--c-rojo-artesanal); --bs-btn-border-color: var(--c-rojo-artesanal);
+  --bs-btn-hover-color: #fff; --bs-btn-hover-bg: var(--c-rojo-hover); --bs-btn-hover-border-color: var(--c-rojo-hover);
+  --bs-btn-active-bg: var(--c-rojo-hover); font-weight: 700; }
+
+  /********* Estilos Abraham**********/
+.card-stat {
+  background-color: #18a7a5;
+  border-radius: 16px;
+  padding: 32px 24px;
+  text-align: center;
+  height: 100%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card-stat .titulo-beneficios {
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  color: var(--c-blanco);
+}
+.card-stat .descripcion-beneficios {
+  font-size: 1rem;
+  color: var(--c-blanco);
+  margin: 0 auto;
+  max-width: 280px;
+  line-height: 1.4;
+}
+.subtitulo-galeria {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--c-rojo-artesanal);
+  text-transform: uppercase;
+}
+
+.grid-galeria img {
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/***Estilos Daniel*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.navbar-custom {
+    background-color: #112233;
+}
+
+.catalog-header {
+    background: linear-gradient(135deg, #008080, #112233);
+    color: white;
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+
+/* Ajuste de la tarjeta en formato horizontal para el carrusel */
+.product-card {
+    border: none;
+    border-radius: 12px;
+    max-width: 1050px; /* Limita el ancho para que luzca elegante tipo banner */
+    background: #ffffff;
+    overflow: hidden;
+}
+
+/* Contenedor de la imagen lateral */
+.product-img-wrapper {
+    min-height: 420px;
+    background-color: #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
+    font-weight: 600;
+}
+
+/* Modificaciones para agrandar textos, precios y botones de tallas */
+.card-title {
+    font-size: 2em !important; /*letra titulo*/
+}
+
+/* apartado de descripcio*/
+
+.card-body p {
+    font-size: 1.5rem !important; /*texto secundario*/
+}
+
+/* 3. Agrandar los botones de las tallas y darles más espacio */
+.size-btn {
+    font-size: 1rem !important; /* Texto de las tallas más grande */
+    padding: 8px 14px !important; /*botones tallas*/
+    margin: 4px !important;
+}
+/* modificar precio*/
+.fs-4 {
+    font-size: 1rem !important;
+}
+
+.btn-primary-custom {
+    background-color: #008080;
+    border-color: #008080;
+    color: white;
+}
+
+.btn-primary-custom:hover {
+    background-color: #006666;
+    border-color: #006666;
+    color: white;
+}
+
+.badge-category {
+    background-color: #e2f0f0;
+    color: #008080;
+    font-weight: 600;
+}
+
+/* Estilo para los controles (flechas) del carrusel para que resalten sobre el fondo */
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(17, 34, 51, 0.8);
+    border-radius: 50%;
+    padding: 15px;
+}
+
+/* Color de los indicadores (puntos de paginación inferiores) */
+.carousel-indicators [data-bs-target] {
+    background-color: #008080;
+}
+/* Agrandar la etiqueta de categoría (ej. "Hombre") */
+.badge-category {
+    font-size: 1.5rem !important;
+    padding: 6px 12px !important;
+}
+
+/* Agrandar el texto de "Tallas disponibles:" */
+.card-body label, .form-label {
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+}
