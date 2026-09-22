@@ -12,11 +12,11 @@ Proyecto desarrollado durante un hackatón en equipo.
  
 | Integrante | Bloque a cargo |
 |---|---|
-| **Selene Kanagusico** | Header, Hero Section y Footer + ensamble final |
+| **Selene Kanagusico** | Header, Hero Section |
 | **Abraham Ortiz** | Valor diferencial y galería visual de artesanías |
 | **Daniel Rosas** | Showcase / catálogo de modelos |
 | **Gonzalo Vargas** | Historia, proceso artesanal y visita al taller |
-| **Hannia Victoria** | Formulario de contacto y captación de clientes |
+| **Hannia Victoria** | Formulario de contacto, captación de clientes y Footer |
  
 ---
  
