@@ -81,19 +81,5 @@ background: var(--c-turquesa-activo);
 2. Abre la carpeta en Visual Studio Code.
 3. Abre `index.html` en el navegador, o usa la extensión **Live Server** para recargar automáticamente al guardar.
 No requiere instalación ni dependencias: Bootstrap y las fuentes se cargan por CDN.
- 
----
- 
-## Convenciones de trabajo
- 
-- Cada integrante trabaja en su propia rama y sube los cambios mediante Pull Request.
-- Las clases CSS llevan un prefijo por bloque para evitar conflictos entre secciones.
-- Antes de editar, hacer `git pull` para traer los cambios del equipo.
-```bash
-git checkout main
-git pull
-git checkout -b mi-seccion
-git add .
-git commit -m "Descripción del cambio"
-git push -u origin mi-seccion
+
 ```
